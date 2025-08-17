@@ -1,0 +1,44 @@
+.side-bar{
+
+  position: fixed;
+  background-color: rgb(255, 255, 255);
+  left:0px;
+  top:70px;
+  bottom:0px;
+  width: 100px;
+  display: grid;
+  grid-template-columns: 100px;
+  align-items: center;
+  justify-content: center;
+  border-right-style:solid;
+  border-color: rgb(222, 222, 222);
+  z-index: 101;
+ 
+}
+
+.home-icon,.subscription-icon,.explore-icon,
+.originals-icon,.yt-music-icon,.library-icon{
+
+  display: block;
+  width:40px;
+}
+
+.side-bar-text{
+
+  font-size: 12px;
+}
+.side-bar-box{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+
+  
+}
+
+.side-bar-box:hover{
+
+  background-color: rgb(131, 131, 131);
+}
